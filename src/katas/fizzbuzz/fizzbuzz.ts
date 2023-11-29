@@ -1,3 +1,3 @@
 export function fizzbuzz(number: number): string {
-    return ''
+    return '1'
 }
