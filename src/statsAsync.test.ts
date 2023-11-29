@@ -1,5 +1,4 @@
 import {average, sum} from "./statsAsync";
-import {describe, expect, it} from "./testlib";
 
 describe('Asynchronous stats should', () => {
     it('calculate the sum of all elements of the array', async () => {

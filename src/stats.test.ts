@@ -1,5 +1,4 @@
 import {average, sum} from "./stats";
-import {describe, expect, it} from "./testlib";
 
 describe('Stats should', () => {
     it('calculate the sum of all elements of the array', () => {
