@@ -1,11 +1,15 @@
 export function fizzbuzz(number: number): string {
-    if (number % 15 === 0) {
+    function isDivisibleBy(divisor: number) {
+        return number % divisor === 0;
+    }
+
+    if (isDivisibleBy(15)) {
         return 'fizzbuzz'
     }
-    if (number % 5 === 0) {
+    if (isDivisibleBy(5)) {
         return 'buzz'
     }
-    if (number % 3 === 0) {
+    if (isDivisibleBy(3)) {
         return 'fizz'
     }
     return number.toString()
