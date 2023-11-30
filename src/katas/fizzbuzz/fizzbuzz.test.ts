@@ -19,4 +19,7 @@ describe('FizzBuzz', () => {
   it('should return fizz for any number divisible by 3', () => {
     expect(fizzbuzz(6)).toEqual('fizz');
   })
+  it('should return buzz for any number divisible by 5', () => {
+    expect(fizzbuzz(10)).toEqual('buzz');
+  })
 })
